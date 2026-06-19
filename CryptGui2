@@ -2,7 +2,7 @@
 CryptGui2 is open source.
 
 msg from cryptix
-cryptgui2 is "notskidded"
+cryptgui2 is "Bacon clan is shit"
 ]]--
 
 
@@ -10,7 +10,7 @@ local rf = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 local win = rf:CreateWindow({
    Name = "CryptGui2",
    Icon = 0,
-   LoadingTitle = "version 2.5",
+   LoadingTitle = "version 2.6",
    LoadingSubtitle = "Made By CryptixRblx",
    Theme = "Default"
 })
@@ -57,7 +57,8 @@ local mines = false
 local spamW = 1
 local spamV = false
 local spamT = {}
-local Crypt = {"ŗ<ล<ἱ<ɗ<e<ɗ b<〪ỵ C<r<y<p<t<ἱ<", " g<et〪 C<r<y<p<t<G<u<i ล<t〪 ร<с〪<ŗ<ἱ<p<t<〪b<〪ӏ<о<x", " #ј<о<ἱ<ท h<ỵ<p<e<ŗ<ἱ<о<ท"}
+local Crypt = {"ŗ<ล<ἱ<ɗ<e<ɗ b<〪ỵ C<r<y<p<t<ἱ<", " g<et〪 C<r<y<p<t<G<u<i ล<t〪 ร<с〪<ŗ<ἱ<p<t<〪b<〪ӏ<о<x", " #j<о<ἱ<ท C<r<p<t<'<e<d"}
+
 local Crypt = {"f<〪xลq", "p<บvŗ", "x<ɱqf", "g<ỵp〪", "ค<f〪gศ", "ทf<ⴭบ", "q<gxร", "p<vxf", "ล<gf<ɱ", "gx<f〪p", "p<xv〪", "hx<fg", "v<ลb〪q", "f<qล<x", "b<f〪p<q"}
 local Crypt1 = {"x<gpv", "ร<f〪pq", "f<qgx", "pv<fg", "g<xb〪p", "v<pg<x", "x<pv〪", "p<ลg<x", "qf<ⴭร", "f<gv<q", "gx<vf", "vf<xล", "รx<pg", "g<ลf<q", "xb〪<fp"}
 local OnJoinedAge = 0
@@ -96,16 +97,16 @@ end
 task.spawn(function()
    for _, plr in pairs(plrs:GetPlayers()) do
       if plr.Name == "CryptGui2_testing" and plr.Name ~= localplr then 
-         noti("owner of hyp found!", "sup.", 2)
+         noti("owner of Crypt found!", "sup.", 2)
             break
       end
    end
 end)
 
-setclipboard("discord : NoDiscordHahaItsAJoke")
+setclipboard("discord : https://discord.gg/KHFCSu5X")
 tab1:CreateParagraph({
     Title = "our discord! (info)",
-    Content = "join our server! its in your clipboard. if its not then invite is NOTHING HAHA "
+    Content = "join our server! its in your clipboard. if its not then invite is https://discord.gg/KHFCSu5X "
 })
 
 tab1:CreateButton({
@@ -137,7 +138,7 @@ tab1:CreateToggle({
        if sa then
           for i = 1, #cmdsOnce do
              task.wait(0.05)
-             chat:SendAsync(cmdsOnce[i] .. " CyptGui")
+             chat:SendAsync(cmdsOnce[i] .. " CryptGui")
           end
           task.spawn(function()
              while sa do
@@ -152,19 +153,19 @@ tab1:CreateToggle({
 })
 tab1:CreateParagraph({
     Title = "advertise (info)",
-    Content = "IF U USE IT U ADVERTISE IT BOI [Def Not Cryptix]"
+    Content = "IF U USE IT U ADVERTISE IT"
 })
 tab1:CreateButton({
    Name = "advertise CryptGui2",
    Callback = function()
       if not sa then
-         CrypT[1] = "#ј<о<ἱ<ท C<r<y<p<t<'<E<d"
+         Cryp[1] = "#ј<о<ἱ<ท C<r<y<p<t<'<E<d"
       elseif sa then
-         CrypT[1] = "ŗ<ล<ἱ<ɗ<e<ɗ b<〪ỵ C<r<y<p<t<'<E<d"
+         Cryp[1] = "ŗ<ล<ἱ<ɗ<e<ɗ b<〪ỵ C<r<y<p<t<'<E<d"
       end
       for i = 1, #CrypT do
            task.wait(0.3 + math.random(0.1, 0.5))
-         chatG:SendAsync(";[" .. Cryp[math.random(#Cryp)] .. Cryp1[math.random(#Cryp1)] .. "]" .. CrypT[i])
+         chatG:SendAsync(";[" .. Cryp[math.random(#Cryp)] .. Cryp1[math.random(#Cryp1)] .. "]" .. Cryp[i])
       end
    end
 })
@@ -586,24 +587,24 @@ tab6:CreateParagraph({
 })
 ]]--
 tab6:CreateParagraph({
-    Title = "v1.6",
-   Content = "changed stuff for better understanding. removed lag server, not effective. changed advertise Crypt'Ed" 
+    Title = "Bacon Clan Info",
+   Content = "Bacon clan has a 7 yr old on their clan." 
 })
 tab6:CreateParagraph({
-    Title = "v 1.7",
-   Content = "added remove enli"
+    Title = "Bob Clan Info",
+   Content = "Leader is a creep"
 }) 
 tab6:CreateParagraph({
-    Title = "v 2.0",
-   Content = "added : spychat, lag everyone and events. "
+    Title = "Stuff",
+   Content = "Never Join Bacon clan. "
 })
 tab6:CreateParagraph({
-    Title = "v 2.2",
-   Content = "added: search, abuse plr. fixed : clear enli"
+    Title = "Stuff",
+   Content = "Don't join bob clan. "
 })
 tab6:CreateParagraph({
-    Title = "v 2.3",
-   Content = "added share server and auto greif."
+    Title = "GreatGui Soon",
+   Content = "Crypt'Ed Team and Tco Greifers Collab Script."
 })
 
 tab7:CreateParagraph({
