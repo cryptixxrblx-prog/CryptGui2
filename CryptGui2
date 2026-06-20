@@ -10,7 +10,7 @@ local rf = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 local win = rf:CreateWindow({
    Name = "CryptGui2 | Made By CryptixRblx",
    Icon = 0,
-   LoadingTitle = "version 2.7",
+   LoadingTitle = "version 2.8",
    LoadingSubtitle = "Made By CryptixRblx",
    Theme = "Default"
 })
@@ -826,3 +826,27 @@ tab9:CreateToggle({
         search.chat = v
     end
 }) 
+
+tab10:CreateButton({
+    Name = "BKIT DISABLE",
+	Arguments = {},
+	LocalOnly = true,
+	Callback = function(plr,args)
+		local dtool = equiptool("Delete")
+		if not game.ReplicatedStorage:FindFirstChild(brickname) then
+			notify("Building is already disabled.",Color3.fromRGB(200,0,0))
+			return
+		end
+		if dtool then
+			if not isog then
+				dtool.Script.Event:FireServer(game.ReplicatedStorage.Brick,getplrpos())
+				notify("Successfully Disabled Building.",Color3.fromRGB(0,200,0))
+			else
+				localplr.Backpack.Events:FireServer(getplrpos(),Enum.NormalId.Top,game.ReplicatedStorage.Cube,Color3.new(0,0,0),"Smooth")
+				notify("Successfully Disabled Building.",Color3.fromRGB(0,200,0))
+			end
+		else
+			notify("You must have a Delete Tool.",Color3.fromRGB(200,0,0))
+		end
+	end
+})
