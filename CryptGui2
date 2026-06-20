@@ -14,15 +14,16 @@ local win = rf:CreateWindow({
    LoadingSubtitle = "Made By CryptixRblx",
    Theme = "Default"
 })
-local tab1 = win:CreateTab("abuser", 4483362458)
-local tab2 = win:CreateTab("protect", 4483362458)
-local tab3 = win:CreateTab("spammer", 4483362458)
-local tab7 = win:CreateTab("events", 4483362458)
-local tab8 = win:CreateTab("spy chat", 4483362458)
-local tab4 = win:CreateTab("antis", 4483362458)
-local tab9 = win:CreateTab("search gears", 4483362458)
+local tab1 = win:CreateTab("Abuse", 4483362458)
+local tab2 = win:CreateTab("Protect", 4483362458)
+local tab3 = win:CreateTab("Event", 4483362458)
+local tab7 = win:CreateTab("Spam", 4483362458)
+local tab8 = win:CreateTab("Spy Chat", 4483362458)
+local tab4 = win:CreateTab("Antis", 4483362458)
+local tab9 = win:CreateTab("Search Gears (Super useful)", 4483362458)
 local tab5 = win:CreateTab("others", 4483362458)
-local tab6 = win:CreateTab("updates", 4483362458)
+local tab6 = win:CreateTab("Info", 4483362458)
+local tab10 = win:CreateTab("BkitBreaker", 4483362458) 
 
 local function noti(a, b, c)
     rf:Notify({
@@ -32,8 +33,9 @@ local function noti(a, b, c)
     })
 end
 
-noti("WARNING", "you need the ArkenStone.", 2)
-noti("WARNING", "this script isnt updated by loadstring.", 2)
+noti("WARNING", "u need enli for sum stuff.", 2)
+noti("WARNING", "this script doesnt change loadstring.", 2)
+noti("COOLSTUFF", "don't join bacon clan theyre pedophiles join Crypt'Ed Its good.", 2) 
 local chat = game:GetService("TextChatService").TextChannels.RBXSystem
 local chatG = game:GetService("TextChatService").TextChannels.RBXGeneral
 local rs = game:GetService("RunService")
@@ -823,4 +825,3 @@ tab9:CreateToggle({
     Callback = function(v)
         search.chat = v
     end
-})
