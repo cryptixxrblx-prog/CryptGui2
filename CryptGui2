@@ -828,7 +828,8 @@ tab9:CreateToggle({
 }) 
 
 tab10:CreateButton({
-    Name = "BKIT DISABLE",
+Name = {"disablebkit"},
+	Description = "Disables building (DELETE TOOL REQUIRED)",
 	Arguments = {},
 	LocalOnly = true,
 	Callback = function(plr,args)
