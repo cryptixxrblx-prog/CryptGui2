@@ -829,7 +829,6 @@ tab9:CreateToggle({
 
 tab10:CreateButton({
  Name = {"DISABLE"},
-	Description = "Disables building (DELETE TOOL REQUIRED)",
 	Arguments = {},
 	LocalOnly = true,
 	Callback = function()
