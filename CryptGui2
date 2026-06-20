@@ -8,7 +8,7 @@ cryptgui2 is "Bacon clan is shit"
 
 local rf = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 local win = rf:CreateWindow({
-   Name = "CryptGui2",
+   Name = "CryptGui2 | Made By CryptixRblx",
    Icon = 0,
    LoadingTitle = "version 2.7",
    LoadingSubtitle = "Made By CryptixRblx",
@@ -320,7 +320,7 @@ tab2:CreateToggle({
                    end
                    if not isWhitelisted then
                       for i = 1, 5 do
-                         chat:SendAsync(";clearinv " .. name .. "  HYPERION")
+                         chat:SendAsync(";clearinv " .. name .. "  CRYPTGUI2")
                       end
                       noti("Auto clear", "cleared enlighten! " .. name, 2)
                    end
@@ -350,7 +350,7 @@ tab2:CreateInput({
 rs.RenderStepped:Connect(function()
    if workspace:FindFirstChild(localplr.Name) and workspace[localplr.Name]:FindFirstChild("The Arkenstone") and IsReset then
       for _ = 1, 5 do
-         chat:SendAsync(";reset me HYPERION")
+         chat:SendAsync(";reset me CRYPTGUI2")
       end
    end
 end)
@@ -480,7 +480,7 @@ for i = 1, 5 do
 end
 
 tab4:CreateButton({
-    Name = "fix vamp sword (humanoid health = 0 method)",
+    Name = "fix vamp sword (Only fixes cam not inventory kinda useless)",
     Callback = function(v)
         game:GetService("StarterGui"):SetCoreGuiEnabled(Enum.CoreGuiType.Backpack, true)
         localplr.Character.Humanoid.Health = 0
@@ -825,3 +825,4 @@ tab9:CreateToggle({
     Callback = function(v)
         search.chat = v
     end
+}) 
