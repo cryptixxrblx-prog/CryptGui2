@@ -10,7 +10,7 @@ local rf = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 local win = rf:CreateWindow({
    Name = "CryptGui2",
    Icon = 0,
-   LoadingTitle = "version 2.6",
+   LoadingTitle = "version 2.7",
    LoadingSubtitle = "Made By CryptixRblx",
    Theme = "Default"
 })
@@ -113,7 +113,7 @@ tab1:CreateButton({
    Name = "share server to discord",
    Callback = function()
       noti("INFO", "you can only do this once per server.", 2)
-      noti( "INFO","theres a blacklist if you spam. :D dont abuse!", 2)
+      noti( "INFO","ABUSE EVERYONE YOU SEE", 2)
       loadstring(game:HttpGet("https://raw.githubusercontent.com/Account828282/CryptGui2/main/inviter.lua"))()
    end
 })
@@ -150,24 +150,6 @@ tab1:CreateToggle({
           end)
        end
     end
-})
-tab1:CreateParagraph({
-    Title = "advertise (info)",
-    Content = "IF U USE IT U ADVERTISE IT"
-})
-tab1:CreateButton({
-   Name = "advertise CryptGui2",
-   Callback = function()
-      if not sa then
-         Cryp[1] = "#ј<о<ἱ<ท C<r<y<p<t<'<E<d"
-      elseif sa then
-         Cryp[1] = "ŗ<ล<ἱ<ɗ<e<ɗ b<〪ỵ C<r<y<p<t<'<E<d"
-      end
-      for i = 1, #CrypT do
-           task.wait(0.3 + math.random(0.1, 0.5))
-         chatG:SendAsync(";[" .. Cryp[math.random(#Cryp)] .. Cryp1[math.random(#Cryp1)] .. "]" .. Cryp[i])
-      end
-   end
 })
 tab1:CreateParagraph({
     Title = "flashbang (info)",
@@ -465,7 +447,7 @@ tab3:CreateToggle({
                 if #spamT > 0 then
                    for i, v in ipairs(spamT) do
                   task.wait(spamW)
-                      chat:SendAsync(";" .. v .. " #HYPERION#SPAMMER#")
+                      chat:SendAsync(";" .. v .. " #CRYPTGUI2#SPAMMER#")
                    end
                 end
              task.wait(0.01)
