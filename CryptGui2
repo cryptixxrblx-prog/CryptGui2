@@ -829,7 +829,6 @@ tab9:CreateToggle({
 
 tab10:CreateButton({
  Name = {"DISABLE"},
-	Arguments = {},
 	LocalOnly = true,
 	Callback = function()
 		local dtool = equiptool("Delete")
